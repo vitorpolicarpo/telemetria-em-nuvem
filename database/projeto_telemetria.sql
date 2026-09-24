@@ -1,7 +1,12 @@
 -- Limpeza de estrutura (caso fique com dados sujos)
+-- No postegre, quando inicializa e re-executa o código,
+-- ele executa de novo linha a linha, então ficariam tabelas
+-- duplicadas e com dados duplicados (porque também re-executaria
+-- os inserts)
 DROP TABLE IF EXISTS telemetria_motor, sessoes_teste, veiculos CASCADE;
 
 -- Infos do carro
+-- Funciona como uma ficha técnica
 CREATE TABLE veiculos ( 
     id_car SERIAL PRIMARY KEY,  
     model VARCHAR(50) UNIQUE NOT NULL,
