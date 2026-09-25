@@ -83,8 +83,6 @@ O FastAPI será utilizado para desenvolver a API responsável pela comunicação
 
 O PostgreSQL será utilizado como banco de dados da aplicação. Ele será responsável por armazenar informações das sessões de teste, data e horário das medições, dados de velocidade, temperatura, tensão, aceleração, dentre outros quesitos que podem ser adicionados pelo usuário. 
 
-// carmen, pode mexer o que quiser com o que tu de fato fez, aqui eu so coloquei uma hipótese do que pode ser feito.
-
 ### HTML, CSS e JS
 
 O frontend será responsável pela interação com o usuário. HTML é responsável pela estrutura das páginas e formulários. CSS é responsável pela organização visual e apresentação da aplicação. JavaScript é responsável por: enviar dados para a API, consultar informações, atualizar o dashboard, construir gráficos e realizar comparações.
