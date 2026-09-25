@@ -27,6 +27,9 @@ section{display:flex;flex-direction:column;gap:20px}
 .card h3{font-size:13px;letter-spacing:1px;margin-bottom:10px;color:var(--txt-dim)}
 .card-sub{color:var(--txt-dim);font-size:13px;margin:6px 0 18px}
 .label-mini{font-size:10px;letter-spacing:1.5px;color:var(--txt-dim);display:block;margin-bottom:4px}
+.select-car{background:var(--panel2);border:1px solid var(--linha);border-radius:8px;color:var(--txt);font-family:var(--mono);font-size:13px;padding:9px 12px;min-width:250px;outline:none}
+.select-car:focus{border-color:var(--verde)}
+.dashboard-heading{margin-right:auto}
 
 /* ===== cadastro ===== */
 .card-cadastro{max-width:560px;margin:40px auto;width:100%}
@@ -110,3 +113,6 @@ input:focus{border-color:var(--verde)}
 .barra-fill.verde{background:var(--verde)} .barra-fill.vermelha{background:var(--vermelho)} .barra-fill.ambar{background:var(--ambar)}
 .graficos{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
 .graficos canvas{width:100%;background:var(--panel2);border-radius:10px}
+.comparison-card{overflow:hidden}
+.comparison-table{min-width:760px}
+.comparison-table td{white-space:nowrap}
